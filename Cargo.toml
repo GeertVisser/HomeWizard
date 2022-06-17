@@ -1,0 +1,13 @@
+[package]
+name = "p1_api"
+version = "0.0.1"
+authors = ["Geert Visser <visser.geert@gmail.com>"]
+edition = "2021"
+
+[dependencies]
+json="0"
+reqwest = { version = "0", features = ["json", "blocking"] }
+serde ="1"
+serde_json = "1"
+plotlib = "0"
+
