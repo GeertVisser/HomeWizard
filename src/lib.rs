@@ -126,18 +126,18 @@ pub fn gather_data() -> Result <()> {
 
 
   // Scatter plots expect a list of pairs
-  let data1 = vec![
-    (-3.0, 2.3),
-    (-1.6, 5.3),
-    (0.3, 0.7),
-    (4.3, -1.4),
-    (6.4, 4.3),
-    (8.5, 3.7),
-  ];
+  // let data1 = vec![
+  //   (-3.0, 2.3),
+  //   (-1.6, 5.3),
+  //   (0.3, 0.7),
+  //   (4.3, -1.4),
+  //   (6.4, 4.3),
+  //   (8.5, 3.7),
+  // ];
 
-  let data2 = vec![(-1.4, 2.5), (7.2, -0.3)];
+  // let data2 = vec![(-1.4, 2.5), (7.2, -0.3)];
 
-  display_layer::scatter_test(data1, data2);
+ // display_layer::scatter_test(data1, data2);
 
   Ok(())
 }
