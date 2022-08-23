@@ -2,7 +2,7 @@ use reqwest:: { Result  };
 use json::JsonValue;
 
 static BASE_URL: &str = "https://monitoringapi.solaredge.com/";
-static API_KEY: &str = your api key;
+static API_KEY: &str = "QK8KWI2KY32269FU38FSL9WTQIV14HKM";
 
 pub fn call_api(endpoint: &str) -> Result<JsonValue>  {
 

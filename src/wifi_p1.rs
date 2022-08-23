@@ -1,7 +1,7 @@
 use reqwest:: { Result  };
 use json::JsonValue;
 
-static BASE_URL: &str = "http://your local ip/api";
+static BASE_URL: &str = "http://192.168.3.202/api";
 
 pub fn get_basic_info() -> Result<JsonValue>  { 
     return call_api(BASE_URL);
